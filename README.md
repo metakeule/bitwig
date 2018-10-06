@@ -11,6 +11,12 @@ It is recommended to use Go 1.11 with module support (`$GO111MODULE=on`).
 go get -d github.com/metakeule/bitwig/...
 ```
 
+For bitwig studio to be controllable via OSC, you need to install ad enable the OSC control by Jürgen Moßgraber: 
+
+https://github.com/git-moss/DrivenByMoss
+
+Leave the default ports and set the MIDI port to some virtual port and you are ready to go.
+
 ## Example
 
 ```go
