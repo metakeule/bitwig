@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/scgolang/osc"
+	"github.com/metakeule/osc"
 )
 
 // Handler handles a bitwig connection

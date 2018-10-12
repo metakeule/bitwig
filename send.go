@@ -3,7 +3,7 @@ package bitwig
 import (
 	"fmt"
 
-	"github.com/scgolang/osc"
+	"github.com/metakeule/osc"
 )
 
 func PreRoll0() (msg osc.Message) {

@@ -1,7 +1,7 @@
 package bitwig
 
 import (
-	"github.com/scgolang/osc"
+	"github.com/metakeule/osc"
 )
 
 func ReceiveSwitch(msg osc.Message) bool {
